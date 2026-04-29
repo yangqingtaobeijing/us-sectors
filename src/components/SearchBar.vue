@@ -32,6 +32,7 @@ const externalSites = computed(() => {
     { icon: '🔍', name: 'Finviz', url: `https://finviz.com/quote.ashx?t=${upper}` },
     { icon: '📊', name: 'Yahoo Finance', url: `https://finance.yahoo.com/quote/${upper}` },
     { icon: '📰', name: 'Seeking Alpha', url: `https://seekingalpha.com/symbol/${upper}` },
+    { icon: '🐂', name: '富途牛牛', url: `https://www.futunn.com/stock/${upper}-US` },
     { icon: '🏛️', name: 'SEC EDGAR', url: secUrl },
   ]
 })
